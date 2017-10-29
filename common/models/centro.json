@@ -7,7 +7,7 @@
   },
   "properties": {
     "CodigoCentro": {
-      "type": "string",
+      "type": "number",
       "required": true
     },
     "Nombre": {
