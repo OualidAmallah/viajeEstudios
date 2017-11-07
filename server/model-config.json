@@ -67,6 +67,9 @@
     "dataSource": "mysqlDs",
     "public": true
   },
+  "Email": {
+    "dataSource": "myEmailDataSource"
+  },
   "Usuario": {
     "dataSource": "mysqlDs",
     "public": true,

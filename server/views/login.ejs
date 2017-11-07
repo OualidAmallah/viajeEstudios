@@ -18,7 +18,7 @@
 </section>
 
 <section>
-  <form action="/api/users" method="post">
+  <form action="/api/Usuarios" method="post">
     <fieldset>
       <legend>Sign up form</legend>
       <div>
@@ -28,6 +28,14 @@
       <div>
         <label for="password">Password:</label>
         <input type="password" name="password" value="<%= password %>"/>
+      </div>
+      <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" required />
+      </div>
+      <div>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" name="apellidos" required/>
       </div>
       <div>
         <input type="submit" value="Sign up"/>
